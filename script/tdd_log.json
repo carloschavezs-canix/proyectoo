@@ -294,9 +294,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e97d35a677eb97f922f9327ca2acb4bc8525c42",
     "commitName": "agregar impuesto de AL",
     "commitTimestamp": 1788994969115,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788995026139,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788995054870,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar impuesto de CA",
+    "commitTimestamp": 1788995083294,
+    "testId": 10
   }
 ]

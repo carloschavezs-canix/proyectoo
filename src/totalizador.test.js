@@ -41,4 +41,8 @@ describe("Totalizador de venta", () =>
   test("calcula el impuesto de AL", () => {
   expect(impuesto(100, "AL")).toBe(4);
   });
+
+  test("calcula el impuesto de CA", () => {
+  expect(impuesto(100, "CA")).toBe(8.25);
+  });
 });

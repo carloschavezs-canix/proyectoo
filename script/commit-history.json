@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e97d35a677eb97f922f9327ca2acb4bc8525c42",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-09T23:02:48.000Z",
       "message": "agregar impuesto de AL",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/9e97d35a677eb97f922f9327ca2acb4bc8525c42"
     },
     "stats": {
       "total": 7,
@@ -186,6 +186,25 @@
     },
     "coverage": 90.91,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T23:04:42.000Z",
+      "message": "agregar impuesto de CA",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.67,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
