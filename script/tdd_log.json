@@ -40,9 +40,55 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5c722b8723f5795f95b645704ad77802c118c1da",
     "commitName": "calcular precio neto",
     "commitTimestamp": 1788992938224,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788993068850,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788993115471,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788993122417,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788993138326,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788993191067,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar descuento",
+    "commitTimestamp": 1788993232883,
+    "testId": 1
   }
 ]
