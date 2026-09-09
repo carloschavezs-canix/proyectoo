@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "268cf42d3b8f6c0df4f955c70590bec31072682c",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-09T22:46:17.000Z",
       "message": "agregar descuento del 15%",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/268cf42d3b8f6c0df4f955c70590bec31072682c"
     },
     "stats": {
       "total": 7,
@@ -110,6 +110,25 @@
     },
     "coverage": 92.31,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T22:49:03.000Z",
+      "message": "agregar impuesto de TX",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 87.5,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

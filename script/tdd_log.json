@@ -198,9 +198,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "268cf42d3b8f6c0df4f955c70590bec31072682c",
     "commitName": "agregar descuento del 15%",
     "commitTimestamp": 1788993978849,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788994082538,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788994133287,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar impuesto de TX",
+    "commitTimestamp": 1788994144370,
+    "testId": 6
   }
 ]

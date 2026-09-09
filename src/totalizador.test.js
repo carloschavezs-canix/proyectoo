@@ -1,4 +1,4 @@
-import { totalNeto, descuento } from "./totalizador";
+import { totalNeto, descuento, impuesto } from "./totalizador";
 
 describe("Totalizador de venta", () => 
   {
@@ -26,4 +26,8 @@ describe("Totalizador de venta", () =>
   expect(descuento(30000)).toBe(4500);
   });
 
+  test("calcula el impuesto de TX", () => {
+  expect(impuesto(60, "TX")).toBe(3.75);
+  });
+  
 });
