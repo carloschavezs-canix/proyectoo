@@ -176,9 +176,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56743498c25e37cee23a0961fb609251ecb0a755",
     "commitName": "agregar descuento del 10%",
     "commitTimestamp": 1788993872052,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788993912329,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788993967304,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar descuento del 15%",
+    "commitTimestamp": 1788993978849,
+    "testId": 5
   }
 ]
