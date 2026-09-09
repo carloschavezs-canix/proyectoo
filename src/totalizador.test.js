@@ -18,4 +18,8 @@ describe("Totalizador de venta", () =>
   expect(descuento(7000)).toBe(490);
   });
 
+  test("aplica 10% de descuento cuando la compra es de 10000", () => {
+  expect(descuento(10000)).toBe(1000);
+  });
+
 });
