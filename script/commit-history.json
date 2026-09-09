@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d0dc1533079fc12ef2a550a6744dc30986fee38",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-09T22:49:03.000Z",
       "message": "agregar impuesto de TX",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/5d0dc1533079fc12ef2a550a6744dc30986fee38"
     },
     "stats": {
       "total": 14,
@@ -129,6 +129,44 @@
     },
     "coverage": 87.5,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ed6f18dd7df0c2f10e4702795e9a38bfd6f4318b",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T22:55:01.000Z",
+      "message": "agregar impuesto de UT",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/ed6f18dd7df0c2f10e4702795e9a38bfd6f4318b"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 88.89,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T22:57:05.000Z",
+      "message": "agregar impuesto de NV",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 90,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

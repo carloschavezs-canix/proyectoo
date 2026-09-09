@@ -220,7 +220,7 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d0dc1533079fc12ef2a550a6744dc30986fee38",
     "commitName": "agregar impuesto de TX",
     "commitTimestamp": 1788994144370,
     "testId": 6
@@ -248,5 +248,33 @@
     "timestamp": 1788994481185,
     "success": true,
     "testId": 7
+  },
+  {
+    "commitId": "ed6f18dd7df0c2f10e4702795e9a38bfd6f4318b",
+    "commitName": "agregar impuesto de UT",
+    "commitTimestamp": 1788994502899,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788994552112,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788994606872,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar impuesto de NV",
+    "commitTimestamp": 1788994626627,
+    "testId": 8
   }
 ]

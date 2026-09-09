@@ -33,4 +33,8 @@ describe("Totalizador de venta", () =>
   test("calcula el impuesto de UT", () => {
   expect(impuesto(100, "UT")).toBe(6.65);
   });
+
+  test("calcula el impuesto de NV", () => {
+  expect(impuesto(100, "NV")).toBe(8);
+  });
 });
