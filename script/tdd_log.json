@@ -224,5 +224,29 @@
     "commitName": "agregar impuesto de TX",
     "commitTimestamp": 1788994144370,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788994352435,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788994403985,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788994481185,
+    "success": true,
+    "testId": 7
   }
 ]
