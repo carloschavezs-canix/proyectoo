@@ -272,9 +272,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a612146b61beb3c8462af5d118b82b49e45653dc",
     "commitName": "agregar impuesto de NV",
     "commitTimestamp": 1788994626627,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788994912967,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788994937865,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar impuesto de AL",
+    "commitTimestamp": 1788994969115,
+    "testId": 9
   }
 ]

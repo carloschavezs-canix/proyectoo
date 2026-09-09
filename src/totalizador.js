@@ -34,6 +34,9 @@ export function impuesto(total, estado) {
   if (estado === "TX") {
     return Math.round(total * 0.0625 * 100) / 100;
   }
+  if (estado === "AL") {
+    return Math.round(total * 0.04 * 100) / 100;
+  }
 
   return 0;
 }

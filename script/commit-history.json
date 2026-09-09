@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a612146b61beb3c8462af5d118b82b49e45653dc",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-09T22:57:05.000Z",
       "message": "agregar impuesto de NV",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/a612146b61beb3c8462af5d118b82b49e45653dc"
     },
     "stats": {
       "total": 8,
@@ -167,6 +167,25 @@
     },
     "coverage": 90,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T23:02:48.000Z",
+      "message": "agregar impuesto de AL",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 90.91,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
