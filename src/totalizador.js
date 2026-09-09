@@ -3,14 +3,16 @@ export function totalNeto(cantidad, precio) {
 }
 
 export function descuento(total) {
-  if (total >= 3000) 
-  {
-    return total * 0.05;
+  if (total >= 7000) {
+    return Math.round(total * 0.07 * 100) / 100;
   }
 
-  if (total >= 1000) 
-  {
-    return total * 0.03;
+  if (total >= 3000) {
+    return Math.round(total * 0.05 * 100) / 100;
+  }
+
+  if (total >= 1000) {
+    return Math.round(total * 0.03 * 100) / 100;
   }
 
   return 0;

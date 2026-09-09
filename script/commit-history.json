@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cfcaf4c3378f93338ab2182875133c205ddd24ac",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-09T22:38:49.000Z",
       "message": "agregar descuento del 5%",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/cfcaf4c3378f93338ab2182875133c205ddd24ac"
     },
     "stats": {
       "total": 15,
@@ -53,6 +53,25 @@
     },
     "coverage": 85.71,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-09T22:42:19.000Z",
+      "message": "agregar descuento del 7%",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 13,
+      "deletions": 7,
+      "date": "2026-09-09"
+    },
+    "coverage": 88.89,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
