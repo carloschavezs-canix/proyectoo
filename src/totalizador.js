@@ -3,7 +3,13 @@ export function totalNeto(cantidad, precio) {
 }
 
 export function descuento(total) {
-  if (total >= 1000) {
+  if (total >= 3000) 
+  {
+    return total * 0.05;
+  }
+
+  if (total >= 1000) 
+  {
     return total * 0.03;
   }
 
