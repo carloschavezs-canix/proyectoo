@@ -316,9 +316,71 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84851a2c80ec7d101c6e41cae96ea30e680e4d49",
     "commitName": "agregar impuesto de CA",
     "commitTimestamp": 1788995083294,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788995252591,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788995387554,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788995493672,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1789001587679,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789001635609,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789001939841,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789001970578,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "calcular total de la compra",
+    "commitTimestamp": 1789001986167,
+    "testId": 11
   }
 ]

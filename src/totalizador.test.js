@@ -1,7 +1,7 @@
-import { totalNeto, descuento, impuesto } from "./totalizador";
+import { totalNeto, descuento, impuesto, calcularTotal } from "./totalizador";
 
-describe("Totalizador de venta", () => 
-  {
+describe("Totalizador de venta", () => {
+
   test("calcula el precio neto de la compra", () => {
     expect(totalNeto(20, 3)).toBe(60);
   });
@@ -11,38 +11,42 @@ describe("Totalizador de venta", () =>
   });
 
   test("aplica 5% de descuento cuando la compra es de 3000", () => {
-  expect(descuento(3000)).toBe(150);
+    expect(descuento(3000)).toBe(150);
   });
 
   test("aplica 7% de descuento cuando la compra es de 7000", () => {
-  expect(descuento(7000)).toBe(490);
+    expect(descuento(7000)).toBe(490);
   });
 
   test("aplica 10% de descuento cuando la compra es de 10000", () => {
-  expect(descuento(10000)).toBe(1000);
+    expect(descuento(10000)).toBe(1000);
   });
 
   test("aplica 15% de descuento cuando la compra es de 30000", () => {
-  expect(descuento(30000)).toBe(4500);
+    expect(descuento(30000)).toBe(4500);
   });
 
   test("calcula el impuesto de TX", () => {
-  expect(impuesto(60, "TX")).toBe(3.75);
+    expect(impuesto(60, "TX")).toBe(3.75);
   });
 
   test("calcula el impuesto de UT", () => {
-  expect(impuesto(100, "UT")).toBe(6.65);
+    expect(impuesto(100, "UT")).toBe(6.65);
   });
 
   test("calcula el impuesto de NV", () => {
-  expect(impuesto(100, "NV")).toBe(8);
+    expect(impuesto(100, "NV")).toBe(8);
   });
 
   test("calcula el impuesto de AL", () => {
-  expect(impuesto(100, "AL")).toBe(4);
+    expect(impuesto(100, "AL")).toBe(4);
   });
 
   test("calcula el impuesto de CA", () => {
-  expect(impuesto(100, "CA")).toBe(8.25);
+    expect(impuesto(100, "CA")).toBe(8.25);
+  });
+
+  test("calcula el total final de una compra", () => {
+  expect(calcularTotal(100, 1, "TX")).toBe(106.25);
   });
 });

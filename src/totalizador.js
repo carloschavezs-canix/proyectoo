@@ -43,3 +43,11 @@ export function impuesto(total, estado) {
 
   return 0;
 }
+
+export function calcularTotal(cantidad, precio, estado) {
+  const total = totalNeto(cantidad, precio);
+  const descuentoAplicado = descuento(total);
+  const impuestoAplicado = impuesto(total - descuentoAplicado, estado);
+
+  return Math.round((total - descuentoAplicado + impuestoAplicado) * 100) / 100;
+}
