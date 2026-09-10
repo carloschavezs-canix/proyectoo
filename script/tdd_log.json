@@ -450,9 +450,23 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ea6a35ba295762d8b9068d9391bdb932872b71e2",
     "commitName": "agregar interfaz del totalizador",
     "commitTimestamp": 1789004897696,
     "testId": 15
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789007316481,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "actualiza proyecto",
+    "commitTimestamp": 1789071950844,
+    "testId": 16
   }
 ]

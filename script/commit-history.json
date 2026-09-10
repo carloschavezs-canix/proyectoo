@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ea6a35ba295762d8b9068d9391bdb932872b71e2",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-10T01:48:16.000Z",
       "message": "agregar interfaz del totalizador",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/ea6a35ba295762d8b9068d9391bdb932872b71e2"
     },
     "stats": {
       "total": 73,
       "additions": 56,
       "deletions": 17,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-10T20:25:49.000Z",
+      "message": "actualiza proyecto",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 88,
+      "additions": 78,
+      "deletions": 10,
       "date": "2026-09-10"
     },
     "coverage": 100,
