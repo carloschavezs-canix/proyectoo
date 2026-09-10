@@ -50,7 +50,18 @@ describe("Totalizador de venta", () => {
   expect(calcularTotal(100, 1, "TX")).toBe(106.25);
   });
 
+  test("calcula el total con descuento e impuesto", () => {
+  expect(calcularTotal(1000, 1, "TX")).toBe(1030.63);
+  });
+
   test("da error cuando el estado no es válido", () => {
   expect(() => impuesto(100, "XX")).toThrow();
   });
+
+  test("no permite una cantidad negativa", () => {
+  expect(() => totalNeto(-5, 10)).toThrow();
+  });
+  
+  
+
 });

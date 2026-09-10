@@ -1,7 +1,10 @@
 export function totalNeto(cantidad, precio) {
+  if (cantidad < 0) {
+    throw new Error("La cantidad no puede ser negativa");
+  }
+
   return cantidad * precio;
 }
-
 export function descuento(total) {
 
    if (total >= 30000) {
