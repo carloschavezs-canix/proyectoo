@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d45ce9a888ec9a4c3a273add8607a56e1a614a59",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-10T01:08:50.000Z",
       "message": "validar cantidad negativa",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/d45ce9a888ec9a4c3a273add8607a56e1a614a59"
     },
     "stats": {
       "total": 16,
       "additions": 15,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-10T01:48:16.000Z",
+      "message": "agregar interfaz del totalizador",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 73,
+      "additions": 56,
+      "deletions": 17,
       "date": "2026-09-10"
     },
     "coverage": 100,
