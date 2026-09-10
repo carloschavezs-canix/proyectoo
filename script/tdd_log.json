@@ -400,9 +400,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fae8f61624927621b89701c0e4726da506f999d",
     "commitName": "validar estado",
     "commitTimestamp": 1789002154457,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789002292432,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "probar descuento e impuesto",
+    "commitTimestamp": 1789002329468,
+    "testId": 13
   }
 ]
