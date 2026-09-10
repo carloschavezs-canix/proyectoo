@@ -41,7 +41,7 @@ export function impuesto(total, estado) {
     return Math.round(total * 0.0825 * 100) / 100;
   }
 
-  return 0;
+  throw new Error("Estado no válido");
 }
 
 export function calcularTotal(cantidad, precio, estado) {

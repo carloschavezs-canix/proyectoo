@@ -49,4 +49,8 @@ describe("Totalizador de venta", () => {
   test("calcula el total final de una compra", () => {
   expect(calcularTotal(100, 1, "TX")).toBe(106.25);
   });
+
+  test("da error cuando el estado no es válido", () => {
+  expect(() => impuesto(100, "XX")).toThrow();
+  });
 });

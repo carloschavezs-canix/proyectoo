@@ -378,9 +378,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1696d9d6b2679e9aed27b05031ecfd1b62fe5af8",
     "commitName": "calcular total de la compra",
     "commitTimestamp": 1789001986167,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789002113159,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789002142713,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "validar estado",
+    "commitTimestamp": 1789002154457,
+    "testId": 12
   }
 ]

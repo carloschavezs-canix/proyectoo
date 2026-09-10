@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1696d9d6b2679e9aed27b05031ecfd1b62fe5af8",
     "author": "Carlitos",
     "commit": {
       "date": "2026-09-10T00:59:45.000Z",
       "message": "calcular total de la compra",
-      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/1696d9d6b2679e9aed27b05031ecfd1b62fe5af8"
     },
     "stats": {
       "total": 36,
@@ -224,6 +224,25 @@
     },
     "coverage": 96.43,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carlitos",
+    "commit": {
+      "date": "2026-09-10T01:02:33.000Z",
+      "message": "validar estado",
+      "url": "https://github.com/carloschavezs-canix/proyectoo/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
